@@ -22,11 +22,6 @@ alphaUpper = alphabetical.map(toUpper);
 
 var get = document.querySelector("#generate");
 
-get.addEventListener("click", function () {
-    pass = generatePassword();
-    document.getElementById("password").placeholder = pass;
-})
-
 // Alert box function that goes through password setup / generation criteria
 function generatePassword() {
     enter = parseInt(prompt("How many characters would you like your password? Choose between 8 and 128"));
