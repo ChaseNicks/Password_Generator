@@ -115,6 +115,10 @@ function generatePassword() {
     return pass;
 }
 
+function UserInput(pass) {
+  document.getElementById("password").textContent = pass;
+}
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
