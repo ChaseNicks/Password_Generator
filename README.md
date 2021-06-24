@@ -6,7 +6,7 @@
 
 * The following is what this application consists of:
 
-    *  Botton to generate password
+    *  Button to generate password
     *  Alert box that runs the user through the criteria needed to create the password
     *  Based on the criteria selected by said user the application produces a password to meet the given conditions
     *  Character length of 8 - 124 characters
